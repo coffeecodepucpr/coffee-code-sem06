@@ -1,0 +1,13 @@
+{
+  "name": "teste-do-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test-integracao.mjs",
+    "test:api-fora": "node test-api-fora.mjs",
+    "test:fora-de-ordem": "node test-fora-de-ordem.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.2"
+  }
+}

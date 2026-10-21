@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1180 560" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1180" height="560" fill="#E6D6C1"/>
+
+<text x="590.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >ORIGEM = ESQUEMA + HOST + PORTA</text>
+<text x="236.12" y="100" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#3B2A22" text-anchor="middle" >http</text>
+<line x1="203" y1="116" x2="269.24" y2="116" stroke="#B08968" stroke-width="5" stroke-linecap="round"/>
+<text x="236.12" y="144" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >esquema</text>
+<text x="299.33" y="100" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#3B2A22" text-anchor="middle" >://</text>
+<text x="407.69" y="100" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#3B2A22" text-anchor="middle" >127.0.0.1</text>
+<line x1="329.42" y1="116" x2="485.96000000000004" y2="116" stroke="#B08968" stroke-width="5" stroke-linecap="round"/>
+<text x="407.69" y="144" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >host</text>
+<text x="497.99" y="100" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#3B2A22" text-anchor="middle" >:</text>
+<text x="543.14" y="100" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#3B2A22" text-anchor="middle" >5500</text>
+<line x1="510.02000000000004" y1="116" x2="576.26" y2="116" stroke="#B08968" stroke-width="5" stroke-linecap="round"/>
+<text x="543.14" y="144" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >porta</text>
+<text x="678.59" y="100" font-family="Consolas, monospace" font-size="30" font-weight="700" fill="#7A553A" text-anchor="middle" >/index.html</text>
+<line x1="582.26" y1="116" x2="774.92" y2="116" stroke="#7A553A" stroke-width="5" stroke-linecap="round"/>
+<text x="678.59" y="144" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >caminho (não conta)</text>
+<line x1="200" y1="156" x2="579.26" y2="156" stroke="#7A553A" stroke-width="2"/>
+<text x="389.63" y="180" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#7A553A" text-anchor="middle" >estas três partes formam a ORIGEM</text>
+<text x="590.0" y="236" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >A página está em  http://127.0.0.1:5500.  Estas URLs são da MESMA origem ou de outra?</text>
+<rect x="60" y="260" width="1060" height="50" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="84" y="292" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >http://127.0.0.1:5500/outra-pagina.html</text>
+<rect x="640" y="268" width="170" height="34" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="725" y="291" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >mesma origem</text>
+<text x="830" y="291" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="start" >só o caminho mudou</text>
+<rect x="60" y="322" width="1060" height="50" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="84" y="354" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >http://127.0.0.1:8000/grupos</text>
+<rect x="640" y="330" width="170" height="34" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="725" y="353" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >origem diferente</text>
+<text x="830" y="353" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="start" >a porta mudou</text>
+<rect x="60" y="384" width="1060" height="50" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="84" y="416" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >http://localhost:5500/</text>
+<rect x="640" y="392" width="170" height="34" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="725" y="415" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >origem diferente</text>
+<text x="830" y="415" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="start" >o host mudou (localhost não é 127.0.0.1)</text>
+<rect x="60" y="446" width="1060" height="50" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="84" y="478" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >https://127.0.0.1:5500/</text>
+<rect x="640" y="454" width="170" height="34" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="725" y="477" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >origem diferente</text>
+<text x="830" y="477" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#3B2A22" text-anchor="start" >o esquema mudou</text>
+<text x="590.0" y="540" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >o navegador compara as origens ao pé da letra: 127.0.0.1 e localhost são endereços diferentes, mesmo apontando para o mesmo computador</text>
+</svg>

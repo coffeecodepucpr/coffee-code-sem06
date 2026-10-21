@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buscador de Grupos de Estudo</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Buscador de Grupos de Estudo</h1>
+    <p id="estado-api" class="estado" role="status">Verificando a API...</p>
+  </header>
+
+  <main>
+    <section class="filtros" aria-label="Filtros">
+      <label for="busca">Buscar por nome</label>
+      <input id="busca" type="search" placeholder="ex.: cálculo">
+      <label for="filtro-materia">Matéria</label>
+      <select id="filtro-materia">
+        <option value="">Todas</option>
+      </select>
+    </section>
+
+    <p id="mensagem" class="mensagem" role="status" aria-live="polite"></p>
+
+    <section aria-labelledby="titulo-lista">
+      <h2 id="titulo-lista">Grupos</h2>
+      <ul id="lista-grupos" class="lista"></ul>
+      <nav class="paginacao" aria-label="Paginação">
+        <button id="anterior" type="button">Anterior</button>
+        <span id="pagina-atual"></span>
+        <button id="proxima" type="button">Próxima</button>
+      </nav>
+    </section>
+
+    <section aria-labelledby="titulo-form">
+      <h2 id="titulo-form">Novo grupo</h2>
+      <form id="form-grupo" novalidate>
+        <label for="nome">Nome do grupo</label>
+        <input id="nome" name="nome_grupo" type="text" autocomplete="off">
+        <span id="erro-nome" class="erro-campo"></span>
+
+        <label for="materia">Matéria</label>
+        <select id="materia" name="materia_id"></select>
+        <span id="erro-materia" class="erro-campo"></span>
+
+        <label for="limite">Limite de participantes</label>
+        <input id="limite" name="max_participantes" type="number" value="10" min="2" max="50">
+        <span id="erro-limite" class="erro-campo"></span>
+
+        <label for="descricao">Descrição (opcional)</label>
+        <textarea id="descricao" name="descricao" rows="3"></textarea>
+        <span id="erro-descricao" class="erro-campo"></span>
+
+        <div class="acoes-form">
+          <button id="salvar" type="submit">Salvar</button>
+          <button id="cancelar" type="button" hidden>Cancelar edição</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

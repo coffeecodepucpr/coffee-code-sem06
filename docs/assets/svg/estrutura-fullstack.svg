@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1220 600" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1220" height="600" fill="#E6D6C1"/>
+
+<text x="610.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >A ESTRUTURA DO PROJETO FULL-STACK</text>
+<rect x="40" y="70" width="520" height="490" rx="14" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<text x="60" y="100" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="start" >frontend/   (servido na porta 5500)</text>
+<rect x="680" y="70" width="500" height="490" rx="14" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<text x="700" y="100" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="start" >api/   (rodando na porta 8000)</text>
+<rect x="60" y="130" width="230" height="62" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="175.0" y="157" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >index.html</text>
+<text x="175.0" y="178" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >a estrutura da página</text>
+<rect x="310" y="130" width="230" height="62" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="425.0" y="157" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >estilos.css</text>
+<text x="425.0" y="178" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >a aparência</text>
+<rect x="145" y="235" width="260" height="62" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="275.0" y="262" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >app.js</text>
+<text x="275.0" y="283" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >orquestra: eventos e estado</text>
+<rect x="60" y="350" width="230" height="62" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="175.0" y="377" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >ui.js</text>
+<text x="175.0" y="398" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >lê e escreve a página</text>
+<rect x="310" y="350" width="230" height="62" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="425.0" y="377" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >api.js</text>
+<text x="425.0" y="398" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >fala com a API (fetch)</text>
+<line x1="175" y1="196" x2="215" y2="231" stroke="#7A553A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="120" y="222" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#7A553A" text-anchor="middle" >carrega</text>
+<line x1="215" y1="301" x2="175" y2="346" stroke="#7A553A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="335" y1="301" x2="375" y2="346" stroke="#7A553A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="275" y="336" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#7A553A" text-anchor="middle" >import</text>
+<rect x="710" y="130" width="440" height="62" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="930.0" y="157" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >main.py</text>
+<text x="930.0" y="178" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >rotas, CORS e regras</text>
+<rect x="710" y="235" width="205" height="62" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="812.5" y="262" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >dados.py</text>
+<text x="812.5" y="283" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >os dados em memória</text>
+<rect x="945" y="235" width="205" height="62" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="1047.5" y="262" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >schemas.py</text>
+<text x="1047.5" y="283" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="middle" >os modelos Pydantic</text>
+<line x1="812" y1="196" x2="812" y2="231" stroke="#7A553A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="1047" y1="196" x2="1047" y2="231" stroke="#7A553A" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M544,381 L620,381 L620,161 L704,161" fill="none" stroke="#7A553A" stroke-width="3.5" marker-end="url(#arrow)"/>
+<text transform="rotate(-90 606 272)" x="606" y="272" text-anchor="middle" font-size="13" font-weight="700" fill="#7A553A" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">fetch: GET, POST, PATCH, DELETE</text>
+<rect x="60" y="450" width="480" height="76" rx="10" fill="#3B2A22" stroke="#7A553A" stroke-width="2"/>
+<text x="76" y="476" font-family="Consolas, monospace" font-size="11.5" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">terminal 1:  python3 -m http.server 5500 --bind 127.0.0.1</text>
+<text x="76" y="500" font-family="Consolas, monospace" font-size="11.5" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">terminal 2:  fastapi dev main.py</text>
+<rect x="710" y="350" width="440" height="100" rx="10" fill="#3B2A22" stroke="#7A553A" stroke-width="2"/>
+<text x="726" y="376" font-family="Consolas, monospace" font-size="11.5" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">no navegador:</text>
+<text x="726" y="400" font-family="Consolas, monospace" font-size="11.5" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">http://127.0.0.1:5500        (a página)</text>
+<text x="726" y="424" font-family="Consolas, monospace" font-size="11.5" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">http://127.0.0.1:8000/docs   (o Swagger)</text>
+</svg>

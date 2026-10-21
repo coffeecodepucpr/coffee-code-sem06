@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1200 590" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1200" height="590" fill="#E6D6C1"/>
+
+<text x="600.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >QUEM COLOCA CADA CABEÇALHO, E QUEM CONSEGUE LÊ-LO</text>
+<rect x="30.0" y="70" width="360" height="360" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="210.0" y="106" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >O NAVEGADOR coloca sozinho</text>
+<text x="210.0" y="128" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#3B2A22" text-anchor="middle" >no pedido</text>
+<line x1="54.0" y1="142" x2="366.0" y2="142" stroke="#3B2A22" stroke-opacity="0.45" stroke-width="1.5"/>
+<text x="210.0" y="172" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Host</text>
+<text x="210.0" y="203" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Origin</text>
+<text x="210.0" y="234" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >User-Agent</text>
+<text x="210.0" y="265" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Content-Length</text>
+<text x="210.0" y="296" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Cookie (quando existe)</text>
+<text x="210.0" y="378" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >o seu JavaScript não consegue trocar estes</text>
+<text x="210.0" y="396" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >(lista de nomes proibidos do MDN)</text>
+<rect x="420.0" y="70" width="360" height="360" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="600.0" y="106" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >O SEU JAVASCRIPT escolhe</text>
+<text x="600.0" y="128" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#3B2A22" text-anchor="middle" >no pedido</text>
+<line x1="444.0" y1="142" x2="756.0" y2="142" stroke="#3B2A22" stroke-opacity="0.45" stroke-width="1.5"/>
+<text x="600.0" y="172" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Content-Type</text>
+<text x="600.0" y="203" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Accept</text>
+<text x="600.0" y="234" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >cabeçalhos próprios (X-...)</text>
+<text x="600.0" y="378" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >cabeçalhos fora do básico exigem preflight e</text>
+<text x="600.0" y="396" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >precisam estar em allow_headers</text>
+<rect x="810.0" y="70" width="360" height="360" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="990.0" y="106" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >A API devolve</text>
+<text x="990.0" y="128" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#3B2A22" text-anchor="middle" >na resposta</text>
+<line x1="834.0" y1="142" x2="1146.0" y2="142" stroke="#3B2A22" stroke-opacity="0.45" stroke-width="1.5"/>
+<text x="990.0" y="172" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Content-Type</text>
+<text x="990.0" y="203" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Location</text>
+<text x="990.0" y="234" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Allow</text>
+<text x="990.0" y="265" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >X-Total-Count</text>
+<text x="990.0" y="296" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Access-Control-Allow-Origin</text>
+<text x="990.0" y="327" font-family="Consolas, monospace" font-size="13.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >Vary</text>
+<text x="990.0" y="378" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >o JavaScript de outra origem só lê os</text>
+<text x="990.0" y="396" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >básicos e os de expose_headers</text>
+<rect x="30.0" y="452" width="1140" height="100" rx="10" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<text x="600.0" y="484" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >cabeçalhos de resposta que o JavaScript de outra origem lê SEM precisar de expose_headers:</text>
+<text x="600.0" y="510" font-family="Consolas, monospace" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="middle" >Cache-Control, Content-Language, Content-Length, Content-Type, Expires, Last-Modified, Pragma</text>
+<text x="600.0" y="534" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7A553A" text-anchor="middle" >qualquer outro (como X-Total-Count) chega como null se o servidor não o expuser</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1220 620" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1220" height="620" fill="#E6D6C1"/>
+
+<text x="610.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >MIDDLEWARES: CAMADAS DE CEBOLA (O ÚLTIMO ADICIONADO É O MAIS EXTERNO)</text>
+<rect x="40" y="70" width="720" height="500" rx="14" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="58" y="96" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >ServerErrorMiddleware</text>
+<text x="742" y="96" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="end" >do Starlette, sempre a mais externa: responde sem cabeçalhos CORS</text>
+<rect x="80" y="130" width="640" height="410" rx="14" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="98" y="156" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >CORSMiddleware</text>
+<text x="702" y="156" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="end" >add_middleware(...) por último</text>
+<rect x="120" y="190" width="560" height="320" rx="14" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="138" y="216" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >IdentificadorDoPedido</text>
+<text x="662" y="216" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#7A553A" text-anchor="end" >request id, tempo e log</text>
+<rect x="160" y="250" width="480" height="230" rx="14" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="178" y="276" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >PegaTudo</text>
+<text x="622" y="276" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="end" >erro inesperado vira JSON 500</text>
+<rect x="200" y="310" width="400" height="130" rx="14" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="218" y="336" font-family="Consolas, monospace" font-size="14.5" font-weight="700" fill="#3B2A22" text-anchor="start" >as rotas</text>
+<text x="582" y="336" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="end" >e os tratadores de erro</text>
+<text x="400" y="392" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#3B2A22" text-anchor="middle" >sua função</text>
+<rect x="800" y="70" width="380" height="100" rx="10" fill="#3B2A22" stroke="#7A553A" stroke-width="2"/>
+<text x="816" y="96" font-family="Consolas, monospace" font-size="11.5" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">app.add_middleware(PegaTudo)</text>
+<text x="816" y="120" font-family="Consolas, monospace" font-size="11.5" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">app.add_middleware(IdentificadorDoPedido)</text>
+<text x="816" y="144" font-family="Consolas, monospace" font-size="11.5" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">app.add_middleware(CORSMiddleware, ...)</text>
+<text x="990" y="200" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#7A553A" text-anchor="middle" >primeiro a ser adicionado = mais interno</text>
+<text x="990" y="220" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#7A553A" text-anchor="middle" >último a ser adicionado = mais externo</text>
+<rect x="800" y="250" width="380" height="100" rx="10" fill="#F3E9D7" stroke="#7A553A" stroke-width="2"/>
+<text x="990" y="282" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >por que o PegaTudo fica DENTRO do CORS?</text>
+<text x="990" y="308" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#3B2A22" text-anchor="middle" >o 500 que ele cria ainda atravessa o CORS</text>
+<text x="990" y="330" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#3B2A22" text-anchor="middle" >e sai com os cabeçalhos de autorização</text>
+<line x1="1000" y1="420" x2="772" y2="420" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="990" y="406" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="middle" >o pedido entra pela camada de fora</text>
+<line x1="772" y1="500" x2="1000" y2="500" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="990" y="486" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="middle" >a resposta sai pelo caminho de volta</text>
+</svg>

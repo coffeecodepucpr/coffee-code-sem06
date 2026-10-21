@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1180 640" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1180" height="640" fill="#E6D6C1"/>
+
+<text x="590.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >O QUE ACONTECE DEPOIS DE UM fetch</text>
+<rect x="40" y="62" width="560" height="56" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="320" y="97" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >const resposta = await fetch(url, opcoes)</text>
+<line x1="320.0" y1="120" x2="320.0" y2="147" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="150" width="560" height="74" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="320.0" y="194" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >O fetch REJEITOU a promessa?</text>
+<line x1="604" y1="187.0" x2="674" y2="187.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="640.0" y="175.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >sim</text>
+<rect x="680" y="150" width="460" height="74" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="910.0" y="180" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >TypeError: a API não respondeu.</text>
+<text x="910.0" y="200" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Servidor desligado, endereço errado ou bloqueio do CORS. Trate</text>
+<text x="910.0" y="216" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >como erro de rede.</text>
+<text x="336.0" y="246.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="start" >não</text>
+<line x1="320.0" y1="228" x2="320.0" y2="257" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="260" width="560" height="74" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="320.0" y="304" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >resposta.ok é false?</text>
+<line x1="604" y1="297.0" x2="674" y2="297.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="640.0" y="285.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >sim</text>
+<rect x="680" y="260" width="460" height="74" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="910.0" y="290" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >A API respondeu com um erro (404, 409, 422, 500).</text>
+<text x="910.0" y="310" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >O fetch NÃO rejeita nesses casos. Leia o corpo do erro e</text>
+<text x="910.0" y="326" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >decida o que mostrar.</text>
+<text x="336.0" y="356.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="start" >não</text>
+<line x1="320.0" y1="338" x2="320.0" y2="367" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="370" width="560" height="74" rx="10" fill="#D6BFA6" stroke="#7A553A" stroke-width="2"/>
+<text x="320.0" y="414" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >resposta.status é 204?</text>
+<line x1="604" y1="407.0" x2="674" y2="407.0" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="640.0" y="395.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#7A553A" text-anchor="middle" >sim</text>
+<rect x="680" y="370" width="460" height="74" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="910.0" y="400" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >Deu certo, mas não há corpo.</text>
+<text x="910.0" y="420" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3B2A22" text-anchor="middle" >Não chame .json(): daria SyntaxError. Siga em frente.</text>
+<text x="336.0" y="466.0" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A553A" text-anchor="start" >não</text>
+<line x1="320.0" y1="448" x2="320.0" y2="477" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="480" width="560" height="76" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="320.0" y="512" font-family="Consolas, monospace" font-size="15" font-weight="700" fill="#3B2A22" text-anchor="middle" >const dados = await resposta.json()</text>
+<text x="320.0" y="538" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7A553A" text-anchor="middle" >o corpo só pode ser lido uma vez</text>
+<line x1="604" y1="518" x2="674" y2="518" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="680" y="480" width="460" height="76" rx="10" fill="#B08968" stroke="#7A553A" stroke-width="2"/>
+<text x="910.0" y="516" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#3B2A22" text-anchor="middle" >dados prontos para a tela</text>
+<text x="910.0" y="538" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#7A553A" text-anchor="middle" >renderizar, atualizar mensagens e estado</text>
+</svg>

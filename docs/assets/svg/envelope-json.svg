@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1220 640" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#7A553A"/>
+  </marker>
+    
+  </defs>
+  <rect x="0" y="0" width="1220" height="640" fill="#E6D6C1"/>
+
+<text x="610.0" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7A553A" text-anchor="middle" >PADRONIZANDO O JSON: ANTES E DEPOIS</text>
+<text x="310" y="84" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#7A553A" text-anchor="middle" >ANTES: cada rota com a sua cara</text>
+<text x="910" y="84" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#7A553A" text-anchor="middle" >DEPOIS: um envelope só</text>
+<rect x="40" y="104" width="540" height="248" rx="10" fill="#3B2A22" stroke="#7A553A" stroke-width="2"/>
+<text x="56" y="130" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">GET /grupos</text>
+<text x="56" y="152" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">[{"grupo_id": 1, "nome_grupo": "Cálculo...",</text>
+<text x="56" y="174" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">  "criado_em": "2026-09-01T12:00:00Z"}]</text>
+<text x="56" y="196" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve"></text>
+<text x="56" y="218" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">GET /grupos/99   (404)</text>
+<text x="56" y="240" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">{"detail": "Grupo não encontrado"}</text>
+<text x="56" y="262" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve"></text>
+<text x="56" y="284" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">POST /grupos     (422)</text>
+<text x="56" y="306" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">{"detail": [{"loc": ["body", "nome_grupo"],</text>
+<text x="56" y="328" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">            "msg": "String should have..."}]}</text>
+<rect x="640" y="104" width="540" height="226" rx="10" fill="#3B2A22" stroke="#7A553A" stroke-width="2"/>
+<text x="656" y="130" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">GET /grupos</text>
+<text x="656" y="152" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">{"dados": [{"grupoId": 1, "nomeGrupo": "Cálculo...",</text>
+<text x="656" y="174" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">            "criadoEm": "2026-09-01T12:00:00Z"}],</text>
+<text x="656" y="196" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve"> "meta": {"requestId": "34c8e750cdbe", "total": 6}}</text>
+<text x="656" y="218" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve"></text>
+<text x="656" y="240" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">GET /grupos/99   (404)</text>
+<text x="656" y="262" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">{"erro": {"codigo": "nao_encontrado",</text>
+<text x="656" y="284" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve">          "mensagem": "Grupo não encontrado"},</text>
+<text x="656" y="306" font-family="Consolas, monospace" font-size="12" font-weight="600" fill="#F3E9D7" text-anchor="start" xml:space="preserve"> "meta": {"requestId": "6bd607602de2"}}</text>
+<line x1="590" y1="220" x2="630" y2="220" stroke="#7A553A" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="40" y="394" width="1140" height="32" fill="#7A553A"/>
+<text x="180" y="415" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#F3E9D7" text-anchor="middle" >aspecto</text>
+<text x="570" y="415" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#F3E9D7" text-anchor="middle" >antes</text>
+<text x="970" y="415" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#F3E9D7" text-anchor="middle" >depois</text>
+<rect x="40" y="426" width="1140" height="36" fill="#D6BFA6"/>
+<text x="180" y="450" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >Formato da lista</text>
+<text x="570" y="450" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7A553A" text-anchor="middle" >a lista crua</text>
+<text x="970" y="450" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >dados e meta</text>
+<rect x="40" y="462" width="1140" height="36" fill="#F3E9D7"/>
+<text x="180" y="486" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >Formato do erro</text>
+<text x="570" y="486" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7A553A" text-anchor="middle" >detail: texto ou lista</text>
+<text x="970" y="486" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >erro: codigo, mensagem, detalhes</text>
+<rect x="40" y="498" width="1140" height="36" fill="#D6BFA6"/>
+<text x="180" y="522" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >Nomes dos campos</text>
+<text x="570" y="522" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7A553A" text-anchor="middle" >snake_case</text>
+<text x="970" y="522" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >camelCase, como no JavaScript</text>
+<rect x="40" y="534" width="1140" height="36" fill="#F3E9D7"/>
+<text x="180" y="558" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >Total de itens</text>
+<text x="570" y="558" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7A553A" text-anchor="middle" >cabeçalho X-Total-Count</text>
+<text x="970" y="558" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >meta.total, no corpo</text>
+<rect x="40" y="570" width="1140" height="36" fill="#D6BFA6"/>
+<text x="180" y="594" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#3B2A22" text-anchor="middle" >Ligar ao log</text>
+<text x="570" y="594" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7A553A" text-anchor="middle" >não existe</text>
+<text x="970" y="594" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#3B2A22" text-anchor="middle" >requestId em toda resposta</text>
+</svg>
