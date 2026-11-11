@@ -1,0 +1,15 @@
+200 -> Código "OK", usado para retornar sucessos básicos
+
+201 -> Código para indicar sucesso na criação de um novo recurso (POST válido, por exemplo)
+
+204 -> O "No Content", usado para indicar um sucesso em remover recursos, sem corpo
+
+404 -> Código de erro mais básico, o "Not Found", usado para erros em requisições do cliente
+
+405 -> Impede certos métodos de serem usados, permitindo maior segurabilidade de dados
+
+409 -> O "Conflict", que como o nome implica, é usado para impedir conflitos, com o pedido entrando em conflito com o estado atual (Um nome repetido em POST, por exemplo)
+
+422 -> Usado para erro de formatação, impedindo valores inválidos para os seus campos
+
+500 -> Erro de servidor, aponta problemas na API em si e não no cliente

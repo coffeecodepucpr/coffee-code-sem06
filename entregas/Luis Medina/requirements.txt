@@ -1,0 +1,6 @@
+fastapi[standard]>=0.143,<0.144
+pytest>=8
+requests>=2.32
+croniter>=2
+python-dotenv>=1.0
+redis>=5,<9

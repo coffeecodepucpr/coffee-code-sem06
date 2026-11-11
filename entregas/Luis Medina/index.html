@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-br" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Estom</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ==================== Navbar ==================== -->
+    <header class="header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">Estom</a>
+        <nav class="navigation" aria-label="Navegação principal">
+          <span id="estado-api" class="api-status" role="status">Verificando API...</span>
+          <a href="index.html" class="nav-link active"> Meus Produtos </a>
+          <a href="perfil.html" class="nav-link active"> Perfil </a>
+          <a href="login.html" class="nav-login"> Entrar </a>
+          <button
+            class="theme-button"
+            id="theme-button"
+            type="button"
+            aria-label="Alterar tema"
+          >
+            ☾
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- ==================== Main ==================== -->
+
+    <main class="main">
+      <div class="container">
+        <!-- Cabeçalho da página -->
+        <section class="products-header">
+          <div>
+            <h1>Meus Produtos</h1>
+            <p>Acompanhe os preços dos seus produtos em um só lugar.</p>
+          </div>
+          <button class="button button-primary" id="open-modal" type="button">
+            + Adicionar produto
+          </button>
+        </section>
+
+        <!-- Busca e filtro -->
+        <div class="products-toolbar">
+          <input
+            class="product-search"
+            type="search"
+            id="product-search"
+            placeholder="Buscar produto..."
+            aria-label="Buscar produto"
+          />
+          <select
+            class="product-filter"
+            id="filtro-categoria"
+            aria-label="Filtrar por categoria"
+          >
+            <option value="">Todas as categorias</option>
+          </select>
+        </div>
+
+        <!-- Carregando, erros e avisos de sucesso -->
+        <p id="mensagem" class="page-message" role="status" aria-live="polite" hidden></p>
+
+        <!-- ==================== Produtos ==================== -->
+
+        <section class="products-section" aria-label="Produtos monitorados">
+          <!-- Os cards são renderizados pelo JavaScript (assets/js/ui.js) -->
+          <ul class="products-grid" id="lista-produtos"></ul>
+
+          <nav class="pagination" id="paginacao" aria-label="Paginação" hidden>
+            <button class="button button-secondary" id="anterior" type="button">
+              Anterior
+            </button>
+            <span id="pagina-atual"></span>
+            <button class="button button-secondary" id="proxima" type="button">
+              Próxima
+            </button>
+          </nav>
+        </section>
+      </div>
+    </main>
+    <!-- ==================== Modal Adicionar/Editar Produto ==================== -->
+
+    <div class="modal-overlay" id="add-product-modal">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-header">
+          <div>
+            <h2 id="modal-title">Adicionar produto</h2>
+            <p id="modal-subtitle">Cadastre um produto para acompanhar seu preço.</p>
+          </div>
+
+          <button
+            class="modal-close"
+            id="close-modal"
+            type="button"
+            aria-label="Fechar"
+          >
+            ×
+          </button>
+        </div>
+
+        <div id="form-error" role="alert"></div>
+
+        <!-- novalidate: quem valida as regras é a API (a página mostra os erros dela) -->
+        <form class="product-form" id="product-form" novalidate>
+          <div class="form-group">
+            <label for="product-name">Nome</label>
+
+            <input
+              type="text"
+              id="product-name"
+              placeholder="Ex: Monitor Samsung Odyssey G5"
+              aria-describedby="erro-nome"
+            />
+            <small class="form-error" id="erro-nome"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="product-url">URL do produto</label>
+
+            <input
+              type="url"
+              id="product-url"
+              placeholder="https://www.mercadolivre.com.br/..."
+              aria-describedby="erro-url"
+            />
+            <small class="form-error" id="erro-url"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="product-category">Categoria</label>
+
+            <select id="product-category" aria-describedby="erro-categoria">
+              <option value="">Selecione uma categoria</option>
+            </select>
+            <small class="form-error" id="erro-categoria"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="target-price">
+              Preço máximo
+              <span class="optional">(opcional)</span>
+            </label>
+
+            <input
+              type="number"
+              id="target-price"
+              placeholder="0,00"
+              min="0"
+              step="0.01"
+              aria-describedby="erro-preco ajuda-preco"
+            />
+            <small class="form-error" id="erro-preco"></small>
+
+            <small class="form-help" id="ajuda-preco">
+              Sem uma meta, o produto continuará sendo monitorado, mas não
+              gerará alertas de preço.
+            </small>
+          </div>
+
+          <div class="form-actions">
+            <button
+              class="button button-secondary"
+              id="cancel-modal"
+              type="button"
+            >
+              Cancelar
+            </button>
+
+            <button class="button button-primary" id="submit-button" type="submit">
+              + Adicionar produto
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>

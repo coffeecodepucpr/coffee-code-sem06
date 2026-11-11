@@ -1,0 +1,49 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Supabase local configuration
+.supabase/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local testing scripts
+teste-supabase.ps1
+
+# Local Supabase SQL snippets
+supabase/snippets/
+
+.venv
+__pycache__
+
+# Pipeline de coleta (Semana 07) — banco local, logs e trava
+dados/
+logs/

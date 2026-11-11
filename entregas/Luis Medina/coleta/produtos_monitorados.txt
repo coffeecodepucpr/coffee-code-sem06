@@ -1,0 +1,15 @@
+# Um link de produto do Mercado Livre por linha. Linhas com # são ignoradas.
+# Troque pelos produtos que você quer monitorar de verdade antes de rodar.
+#
+# Exemplo (substitua pelos seus):
+# https://produto.mercadolivre.com.br/MLB-1234567890-nome-do-produto
+
+# Link real testado: a API oficial bloqueia com PA_UNAUTHORIZED_RESULT_FROM_POLICIES
+# (ver coleta/README.md) — deixado como comentário pra referência, não é consultado.
+# https://www.mercadolivre.com.br/console-sony-playstation-5-edicao-slim-disk-1tb-branco/p/MLB52897777?pdp_filters=item_id:MLB4857423967|item_id:MLB4857423967
+
+# Produtos da API SIMULADA (coleta/api_simulada.py), usados pra demonstração
+# e ligados aos produtos 1, 2 e 5 do front (ver api/dados.py e coleta/README.md):
+https://produto.mercadolivre.com.br/MLB-001-teclado-mecanico
+https://produto.mercadolivre.com.br/MLB-002-mouse-sem-fio
+https://produto.mercadolivre.com.br/MLB-003-produto-de-teste
